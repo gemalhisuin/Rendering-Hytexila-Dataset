@@ -1,5 +1,4 @@
 # Rendering-Hytexila-Dataset
-
 Using computer graphics algorithms as a rendering system, hytexila hyperspectral images were rendered with varying lighting and camera conditions, based on their spectral power distribution and wavelength. The rendered results were compared pixel by pixel with the original RGB image using reflectance data from the images as spectral power distribution.
 
 
