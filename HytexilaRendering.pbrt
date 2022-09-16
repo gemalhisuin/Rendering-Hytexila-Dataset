@@ -1,0 +1,46 @@
+LookAt 	-15 4 30   0 4 0    0 1 0
+
+################ Camera Models##################
+#Camera "perspective" "float fov" [ 45.0 ] 
+Camera "realistic"
+      "string lensfile" "Lens/dgauss.50mm.dat"
+ "float focusdistance" 10
+ "float aperturediameter" 12
+################ Filters #########################
+PixelFilter "mitchell" "float xwidth" [4] "float ywidth" [4]
+
+################### Film############################
+Film "image" 
+        "integer xresolution" [ 1024 ] 
+        "integer yresolution" [1024] 
+        "string filename" [ "100x100.png" ] 
+
+######################## Sobel Sampler ########################
+Sampler "sobol" "integer pixelsamples" [128] 
+
+#################### Integrator############################
+Integrator "path" "integer maxdepth" [128]
+#############################################
+
+WorldBegin
+AttributeBegin
+##############Infinite LightSource with BlackBody Emitter#################
+LightSource "infinite" "blackbody L" [6500 1.0]
+
+
+
+#LightSource "spot" "color I" [ 90 90 90 ] "point from" [-10.0 10.0 14.0] "point to" [0.0 0.0 0.0] "float coneangle" [60] 
+#LightSource "distant"  "point from" [ -10.0 10.0 14.0 ] "point to" [0.0 0.0 0.0] "blackbody L" [6500 1.0]
+#LightSource "diffuse"  "string mapname" "textures/20060807_wells6_hd.exr" "color scale" [2.5 2.5 2.5]
+
+
+AttributeEnd
+
+AttributeBegin
+Scale 4 4 4
+Translate 0 0 0
+#Rotate 15 1 0 0
+Include "geometry.pbrt"
+AttributeEnd
+
+WorldEnd

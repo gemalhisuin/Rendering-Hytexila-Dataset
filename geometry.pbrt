@@ -1,0 +1,165 @@
+# Converted from "Model.obj" by obj2pbrt
+# Scene bounds: (-0.548951, 0.013527, -0.823884) - (0.577019, 0.221189, 0.703893)
+
+
+##################"Hytexila Geometry File"#################
+AttributeBegin
+
+##################UserDefined matte Material########################
+
+MakeNamedMaterial "Material.001"
+	#"spectrum eta" "bathroom/spds/Ag.eta.spd"
+        "spectrum Kd" "SPDS/foodchilli1.spd"
+"spectrum Kd" "SPDS/foodchilli2.spd" "float sigma" [0.5]
+"spectrum Kd" "SPDS/foodchilli3.spd" "float sigma" [0.5]
+"spectrum Kd" "SPDS/foodchilli4.spd" "float sigma" [0.5]
+"spectrum Kd" "SPDS/foodchilli5.spd" "float sigma" [0.5]
+"spectrum Kd" "SPDS/foodchilli6.spd" "float sigma" [0.5]
+"spectrum Kd" "SPDS/foodchilli7.spd" "float sigma" [0.5]
+"spectrum Kd" "SPDS/foodchilli8.spd" "float sigma" [0.5]
+"spectrum Kd" "SPDS/foodchilli9.spd" "float sigma" [0.5]
+"spectrum Kd" "SPDS/foodchilli10.spd" "float sigma" [0.5]
+"spectrum Kd" "SPDS/foodchilli11.spd" "float sigma" [0.5]
+"spectrum Kd" "SPDS/foodchilli12.spd" "float sigma" [0.5]
+"spectrum Kd" "SPDS/foodchilli13.spd" "float sigma" [0.5]
+"spectrum Kd" "SPDS/foodchilli14.spd" "float sigma" [0.5]
+"spectrum Kd" "SPDS/foodchilli15.spd" "float sigma" [0.5]
+"spectrum Kd" "SPDS/foodchilli16.spd" "float sigma" [0.5]
+"spectrum Kd" "SPDS/foodchilli16.spd" "float sigma" [0.5]
+"spectrum Kd" "SPDS/foodchilli17.spd" "float sigma" [0.5]
+"spectrum Kd" "SPDS/foodchilli18.spd" "float sigma" [0.5]
+"spectrum Kd" "SPDS/foodchilli19.spd" "float sigma" [0.5]
+"spectrum Kd" "SPDS/foodchilli20.spd" "float sigma" [0.5]
+"spectrum Kd" "SPDS/foodchilli21.spd" "float sigma" [0.5]
+"spectrum Kd" "SPDS/foodchilli22.spd" "float sigma" [0.5]
+"spectrum Kd" "SPDS/foodchilli23.spd" "float sigma" [0.5]
+"spectrum Kd" "SPDS/foodchilli24.spd" "float sigma" [0.5]
+"spectrum Kd" "SPDS/foodchilli25.spd" "float sigma" [0.5]
+"spectrum Kd" "SPDS/foodchilli26.spd" "float sigma" [0.5]
+"spectrum Kd" "SPDS/foodchilli27.spd" "float sigma" [0.5]
+"spectrum Kd" "SPDS/foodchilli28.spd" "float sigma" [0.5]
+"spectrum Kd" "SPDS/foodchilli29.spd" "float sigma" [0.5]
+"spectrum Kd" "SPDS/foodchilli30.spd" "float sigma" [0.5]
+"spectrum Kd" "SPDS/foodchilli31.spd" "float sigma" [0.5]
+"spectrum Kd" "SPDS/foodchilli32.spd" "float sigma" [0.5]
+"spectrum Kd" "SPDS/foodchilli33.spd" "float sigma" [0.5]
+"spectrum Kd" "SPDS/foodchilli34.spd" "float sigma" [0.5]
+"spectrum Kd" "SPDS/foodchilli35.spd" "float sigma" [0.5]
+"spectrum Kd" "SPDS/foodchilli36.spd" "float sigma" [0.5]
+"spectrum Kd" "SPDS/foodchilli26.spd" "float sigma" [0.5]
+"spectrum Kd" "SPDS/foodchilli27.spd" "float sigma" [0.5]
+"spectrum Kd" "SPDS/foodchilli28.spd" "float sigma" [0.5]
+"spectrum Kd" "SPDS/foodchilli29.spd" "float sigma" [0.5]
+"spectrum Kd" "SPDS/foodchilli30.spd" "float sigma" [0.5]
+"spectrum Kd" "SPDS/foodchilli31.spd" "float sigma" [0.5]
+"spectrum Kd" "SPDS/foodchilli32.spd" "float sigma" [0.5]
+"spectrum Kd" "SPDS/foodchilli33.spd" "float sigma" [0.5]
+"spectrum Kd" "SPDS/foodchilli34.spd" "float sigma" [0.5]
+"spectrum Kd" "SPDS/foodchilli35.spd" "float sigma" [0.5]
+"spectrum Kd" "SPDS/foodchilli36.spd" "float sigma" [0.5]
+"spectrum Kd" "SPDS/foodchilli37.spd" "float sigma" [0.5]
+"spectrum Kd" "SPDS/foodchilli38.spd" "float sigma" [0.5]
+"spectrum Kd" "SPDS/foodchilli39.spd" "float sigma" [0.5]
+"spectrum Kd" "SPDS/foodchilli40.spd" "float sigma" [0.5]
+"spectrum Kd" "SPDS/foodchilli41.spd" "float sigma" [0.5]
+"spectrum Kd" "SPDS/foodchilli42.spd" "float sigma" [0.5]
+"spectrum Kd" "SPDS/foodchilli43.spd" "float sigma" [0.5]
+"spectrum Kd" "SPDS/foodchilli44.spd" "float sigma" [0.5]
+"spectrum Kd" "SPDS/foodchilli45.spd" "float sigma" [0.5]
+"spectrum Kd" "SPDS/foodchilli46.spd" "float sigma" [0.5]
+"spectrum Kd" "SPDS/foodchilli47.spd" "float sigma" [0.5]
+"spectrum Kd" "SPDS/foodchilli48.spd" "float sigma" [0.5]
+"spectrum Kd" "SPDS/foodchilli49.spd" "float sigma" [0.5]
+	"string type" ["matte"]
+
+###############################################################
+####################UserDefined Metal Material###########################
+MakeNamedMaterial "metal_vis.001" 
+        "spectrum eta" "SPDS/foodchilli1.spd"
+	"spectrum eta" "SPDS/foodchilli2.spd" 
+	"spectrum eta" "SPDS/foodchilli3.spd" 
+	"spectrum eta" "SPDS/foodchilli4.spd" 
+	"spectrum eta" "SPDS/foodchilli5.spd" 
+	"spectrum eta" "SPDS/foodchilli6.spd" 
+	"spectrum eta" "SPDS/foodchilli7.spd" 
+	"spectrum eta" "SPDS/foodchilli8.spd" 
+	"spectrum eta" "SPDS/foodchilli9.spd" 
+	"spectrum eta" "SPDS/foodchilli10.spd" 
+	"spectrum eta" "SPDS/foodchilli11.spd" 
+	"spectrum eta" "SPDS/foodchilli12.spd" 
+	"spectrum eta" "SPDS/foodchilli13.spd" 
+	"spectrum eta" "SPDS/foodchilli14.spd" 
+	"spectrum eta" "SPDS/foodchilli15.spd" 
+	"spectrum eta" "SPDS/foodchilli16.spd" 
+	"spectrum eta" "SPDS/foodchilli16.spd" 
+	"spectrum eta" "SPDS/foodchilli17.spd" 
+	"spectrum eta" "SPDS/foodchilli18.spd" 
+	"spectrum eta" "SPDS/foodchilli19.spd" 
+	"spectrum eta" "SPDS/foodchilli20.spd" 
+	"spectrum eta" "SPDS/foodchilli21.spd"
+	"spectrum eta" "SPDS/foodchilli22.spd"
+	"spectrum eta" "SPDS/foodchilli23.spd"
+	"spectrum eta" "SPDS/foodchilli24.spd"
+	"spectrum eta" "SPDS/foodchilli25.spd"
+	"spectrum eta" "SPDS/foodchilli26.spd"
+	"spectrum eta" "SPDS/foodchilli27.spd" 
+	"spectrum eta" "SPDS/foodchilli28.spd"
+	"spectrum eta" "SPDS/foodchilli29.spd"
+	"spectrum eta" "SPDS/foodchilli30.spd"
+	"spectrum eta" "SPDS/foodchilli31.spd"
+	"spectrum eta" "SPDS/foodchilli32.spd"
+	"spectrum eta" "SPDS/foodchilli33.spd"
+	"spectrum eta" "SPDS/foodchilli34.spd"
+	"spectrum eta" "SPDS/foodchilli35.spd"
+	"spectrum eta" "SPDS/foodchilli36.spd" 
+	"spectrum eta" "SPDS/foodchilli37.spd"
+	"spectrum eta" "SPDS/foodchilli38.spd"
+	"spectrum eta" "SPDS/foodchilli39.spd"
+	"spectrum eta" "SPDS/foodchilli40.spd"
+	"spectrum eta" "SPDS/foodchilli41.spd"
+	"spectrum eta" "SPDS/foodchilli42.spd"
+	"spectrum eta" "SPDS/foodchilli43.spd"
+	"spectrum eta" "SPDS/foodchilli44.spd"
+	"spectrum eta" "SPDS/foodchilli45.spd" 
+	"spectrum eta" "SPDS/foodchilli46.spd" 
+	"spectrum eta" "SPDS/foodchilli47.spd"
+	"spectrum eta" "SPDS/foodchilli48.spd" 
+	"spectrum eta" "SPDS/foodchilli49.spd"
+	"spectrum k" "SPDS/foodchilli49.spd"
+        "float roughness" [0.03]
+        "string type" ["metal"]
+########################################################################
+
+############UserDefined Mixture Material##############################
+MakeNamedMaterial "MixtureMaterial.001"
+        "string type" "mix"
+        "string namedmaterial1" "metal_vis.001"
+        "string namedmaterial2" "Material.001"
+        #"rgb amount" [0.1 0.1 0.1]
+
+##########################################################
+#########################"Plane Geometry"##########################
+AttributeBegin 
+########################################### UnCommment anyone To See the Rendering #####################
+#NamedMaterial "Material.001"
+#NamedMaterial "metal_vis.001"
+Material "matte" "spectrum Kd" "SPDS/spd100.spd" "float sigma" [0.5]
+#NamedMaterial "metal_vis.001"
+#NamedMaterial "MixtureMaterial.001"
+#Material "matte" "texture Kd" "wood-floor"
+
+
+Transform [23.028112411499023 0.000000000000000 0.000000000000000 0.000000000000000 0.000000000000000 23.028112411499023 0.000000000000000 0.000000000000000 0.000000000000000 0.000000000000000 23.028112411499023 0.000000000000000 -0.487622737884521 1.930765151977539 -7.812389373779297 1.000000000000000]
+Shape "plymesh"
+	"string filename" ["coffee/geometry/Plane_0000_m000.ply"]
+
+####################################### Texture Mapping ####################################
+#Texture "wood-floor" "color" "imagemap" "string filename" "SPDS/food_chili_rgb.tga"
+#Texture "wood-floor" "color" "imagemap" "string filename" "SPDS/stone_01_rgb.png"
+#Texture "wood-floor" "color" "imagemap" "string filename" "SPDS/textile_06_rgb.png"
+#Texture "wood-floor" "color" "imagemap" "string filename" "SPDS/wood_05_rgb.png"
+#Texture "wood-floor" "color" "imagemap" "string filename" "SPDS/vegetation_leaf_03_green_rgb.png"
+
+AttributeEnd
+
+AttributeEnd
